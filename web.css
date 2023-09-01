@@ -1,0 +1,294 @@
+html{
+    font-size: 20px;
+}
+
+@media screen and (max-width:720px){
+    html{font-size: 18px;}
+}
+@media screen and (max-width:680px){
+    html{font-size: 16px;}
+}
+@media screen and (max-width:620px){
+    html{font-size: 14px;}
+}
+@media screen and (max-width:570px){
+    html{font-size: 13px;}
+}
+@media screen and (max-width:5-  00px){
+    html{font-size: 12px;}
+}
+
+
+body{
+    
+    background-image:url(/pic/homedragon.jpg);
+    background-size:500px 500px;
+}
+
+.row{
+    margin-right:0 ; 
+    margin-left:0;
+}
+
+.title_container{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+
+.title_name{
+    color: white;
+    padding: 1rem;
+    align-self: center;
+}
+
+#title_fa-brands{
+    font-size: 3rem;
+}
+
+.navbar{
+    position: sticky;
+    top:0;
+    z-index: 10000;
+    background: red !important;
+    width: 100%;
+}
+
+.nav-item{
+    color: black ;
+}
+
+.navbar-brand:hover{
+    color: blue !important ;
+
+}
+
+.nav-link:hover{
+    color: blue !important ;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+.content_title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.home_title{
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+#home_s_title{
+    height: fit-content;
+    width: fit-content;
+    background-color: aliceblue;
+    font-size: 2.5rem;
+
+}
+
+#home_title_describ{
+    height: fit-content;
+    width: fit-content;
+    font-size: small;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+    font-size:1.5rem;
+}
+
+
+.carousel-item{
+    top: 30px;
+}
+.caption-mid{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-caption{
+    position: absolute;
+    left:auto;
+    right: auto;
+    bottom: 3rem;
+}
+.introductory{
+    color: white;
+    background-color: black;
+    padding: 0px;
+    border:solid white 1px;
+}
+
+@media (max-width: 550px){
+    .s-words{
+        font-size: small;
+    }
+
+}
+
+.carousel-indicators{
+    margin-bottom: -20px;
+    background-color: rgba(0, 0, 0,0.5)
+
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: red;
+}
+
+
+.aboutme{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about_dialog{
+    margin-top: 2.5rem;
+    background: white;
+    font-size: 2.5rem;
+    align-self: center;
+    margin-bottom: 2.5rem;
+}
+
+#about_dialog_description{
+    background:white;
+    margin-bottom: 3rem;
+}
+
+
+.abt_container{
+    position: relative;
+}
+
+.abt_image{
+    display: block;
+    width: 100%;
+    height: 20rem;
+}
+
+.abt_overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+
+  
+  .abt_container:hover .abt_overlay{
+    opacity: 1;
+  }
+  
+  .abt_image_text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+#image_switch{
+    display: block ;
+    max-width: 35rem;
+    height: 20rem;
+    margin:0 auto ;
+    transition:0.3s ;
+  }
+
+#div-8{
+    top :3rem;
+    margin-bottom: 3rem;
+}
+#div10space{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#div-10{
+    margin-bottom: 2rem;
+}
+
+#sd_center{
+    display: flex;
+    justify-content: center;
+
+}
+
+.sd_picture{
+    width: 50%;
+
+}
+
+.picture{
+    justify-content: center;
+}
+
+#div-17{
+    display: flex;
+    justify-content: center;
+}
+
+#gameoflife_portal{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#gameoflife_portal_logo{
+    position:absolute;
+    background: purple;
+    font-size: 2rem;
+    align-self: center;
+
+}
+
+#contact_dialog_description{
+
+    background: white;
+    margin-bottom: 2rem;
+    display: flex;
+    align-self: center;
+}
+
+
+#input_content{
+    height: 4rem;
+}
+
+#div-19{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.fa-brands{
+    margin: 1rem;
+    font-size: 5rem;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
